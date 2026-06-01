@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Spicy Rice';
+  src: url('fonts/Spicy_Rice/SpicyRice-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #e69393; 
+    color: #14aaaa; 
+    
+    font-family: Cambria, Georgia, serif; 
+    
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+a {
+    color: #0c264e; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+  font-size: 3.0em; 
+  color: #058a8a;
+  font-family: 'Spicy Rice';
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #c06510;
+    border-left: 5px solid #df7512;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.welcome-blurb {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 650px;
+    margin: 30px auto;
+}
+
+.welcome-container {
+  text-align: center;
+}
+
+.theme-legend {
+  width: auto;
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+.theme-legend b {
+  color: #419b41;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.big-button {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding: 15px 30px;
+  background-color: #f1a464;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.big-button:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.song-thumbnail {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #555;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.song-thumbnail:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(138, 180, 248, 0.6);
+}
+
+@media (max-width: 600px) {
+    .thumbnail-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .song-thumbnail {
+        width: 80%;
+        height: auto;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
