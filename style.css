@@ -68,7 +68,12 @@ body {
 .calendar-door.unlocked[data-date="22"] { background-image: url('images/day22.jpg'); }
 .calendar-door.unlocked[data-date="23"] { background-image: url('images/day23.jpg'); }
 .calendar-door.unlocked[data-date="24"] { background-image: url('images/day24.jpg'); }
-
+.calendar-door.unlocked[data-date="25"] { background-image: url('images/day25.jpg'); }
+.calendar-door.unlocked[data-date="26"] { background-image: url('images/day26.jpg'); }
+.calendar-door.unlocked[data-date="27"] { background-image: url('images/day27.jpg'); }
+.calendar-door.unlocked[data-date="28"] { background-image: url('images/day28.jpg'); }
+.calendar-door.unlocked[data-date="29"] { background-image: url('images/day29.jpg'); }
+.calendar-door.unlocked[data-date="30"] { background-image: url('images/day30.jpg'); }
 
 @media (max-width: 900px) {
     .calendar-grid {
